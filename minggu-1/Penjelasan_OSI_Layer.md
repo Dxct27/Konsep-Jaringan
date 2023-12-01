@@ -8,7 +8,7 @@ NRP	: 3122600030
 
 Model OSI( Open System Interconnection) diciptakan oleh International Organization for Standardization (ISO) yang digunakan untuk proses komunikasi data antar komputer melalui jaringan. Sebelum adanya OSI setiap vendor komputer menggunakan protokol dan format data yang berbeda-beda. Dengan adanya OSI komputer dari vendor yang berbeda-beda dapat terhubung melalui jaringan karena adanya protokol yang sudah terstandarisasi. 
 
-![OSI Layers Model](./Assets/OSI_2.png)
+![OSI Layers Model](./../assets/osi-layer/OSI_2.png)
 
 Model OSI terdapat 7 lapisan yaitu 
 <ul>

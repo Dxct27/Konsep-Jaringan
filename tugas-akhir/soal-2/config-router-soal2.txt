@@ -1,0 +1,35 @@
+R1>enable
+R1#
+R1#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#router rip
+R1(config-router)#network 10.0.0.0
+R1(config-router)#network 192.168.1.0
+R1(config-router)#network 192.168.10.0
+R1(config-router)#network 192.168.20.0
+R1(config-router)#network 200.100.10.0
+R1(config-router)#
+
+R2>enable
+R2#
+R2#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R2(config)#router rip
+R2(config-router)#network 10.0.0.0
+R2(config-router)#network 192.168.1.0
+R2(config-router)#network 192.168.10.0
+R2(config-router)#network 192.168.20.0
+R2(config-router)#network 200.100.10.0
+R2(config-router)#
+
+ISP>enable
+ISP#
+ISP#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+ISP(config)#router rip
+ISP(config-router)#network 10.0.0.0
+ISP(config-router)#network 192.168.1.0
+R2(config-router)#network 192.168.10.0
+ISPR2(config-router)#network 192.168.20.0
+ISP(config-router)#network 200.100.10.0
+ISP(config-router)#
